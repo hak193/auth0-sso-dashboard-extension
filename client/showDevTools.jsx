@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import DevTools from './containers/DevTools';
 
 module.exports = (store) => {
-  const popup = window.open(null, 'Redux DevTools', 'menubar=no,location=no,resizable=yes,scrollbars=no,status=no');
+  const popup = window.open(null, 'Redux DevTools', 'menu bar=no,location=no,resizable=yes,scrollbars=no,status=no');
   if (!popup) {
     return;
   }
